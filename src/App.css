@@ -1,5 +1,27 @@
+@import './stylesheets/reset.scss';
+@import './stylesheets/main.scss';
+@import './stylesheets/about.scss';
+@import './stylesheets/nav.scss';
+
+html {
+  --theme-color: #daa520;
+  --theme-font: proxima-nova, helvetica, arial, sans-serif;
+  --logo-font: scriptorama-tradeshow-jf, arial, sans-serif;
+  --theme-font: itc-avant-garde-gothic-pro,sans-serif;
+  --theme-font-weight: 500;
+  --background-color: white;
+  --subheading-color: #e3b43e;
+  --container-color: #edcf83;
+  --hover-color:	#a77e18;
+  --font-color: black;
+  --font-text: 'PT Mono', monospace;
+  --main-bg: #0B1A2F;
+}
+
+
 .App {
   text-align: center;
+  font-family: var(--font-text)
 }
 
 .App-logo {
